@@ -1,0 +1,9 @@
+n=int(input())
+if n>0 and n<4:
+    print("Initial")
+elif n>3 and n<7:
+    print("Average")
+elif n>6 and n<10:
+    print("Sufficient")
+elif n>9 and n<13:
+    print("High")
