@@ -1,0 +1,7 @@
+say=int(input())
+ededler= list(map(int,input().split()))[:say]
+sert=[]
+for i in  ededler:
+    if i%6==0 and i>0:
+        sert.append(i)
+print(len(sert),sum(sert))
