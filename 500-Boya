@@ -1,0 +1,10 @@
+n=int(input())
+for i in range(0,n):
+    L,W,H=map(int,input().split())
+    S=(2*H*(W +L))
+    if S<16:
+        print(1)
+    elif S%16!=0:
+        print((S//16)+1)
+    elif S%16==0:
+        print(S//16)
