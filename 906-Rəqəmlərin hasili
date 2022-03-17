@@ -1,0 +1,7 @@
+n=int(input())
+hasil=1
+for i in range (len(str(n))):
+    dig=n%10
+    hasil=hasil*dig
+    n=n//10
+print(hasil)
